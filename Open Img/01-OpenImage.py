@@ -3,7 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # imread
-img_bgr = cv2.imread('../DATA/00-puppy.jpg')
+img_bgr = cv2.imread('../../DATA/00-puppy.jpg')
 
 plt.imshow(img_bgr)
 plt.show()
@@ -19,7 +19,7 @@ plt.imshow(img_rgb)
 plt.show()
 
 # jpg 이미지에서 녹색 컬러만 추출
-img_gray = cv2.imread('../DATA/00-puppy.jpg',cv2.IMREAD_GRAYSCALE)
+img_gray = cv2.imread('../../DATA/00-puppy.jpg', cv2.IMREAD_GRAYSCALE)
 plt.imshow(img_gray)
 plt.show()
 
